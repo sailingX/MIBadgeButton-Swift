@@ -3,141 +3,114 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DCA509D19AE63610002F2E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA509C19AE63610002F2E6 /* AppDelegate.swift */; };
-		3DCA509F19AE63610002F2E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA509E19AE63610002F2E6 /* ViewController.swift */; };
-		3DCA50A219AE63610002F2E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA50A019AE63610002F2E6 /* Main.storyboard */; };
-		3DCA50A419AE63610002F2E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA50A319AE63610002F2E6 /* Images.xcassets */; };
-		3DCA50B019AE63610002F2E6 /* MIBadgeButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA50AF19AE63610002F2E6 /* MIBadgeButtonTests.swift */; };
-		3DCA50BC19AE66180002F2E6 /* MIBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA50BB19AE66180002F2E6 /* MIBadgeButton.swift */; };
+		E041C8542624254200ECBF76 /* MIBadgeButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E041C84A2624254200ECBF76 /* MIBadgeButton.framework */; };
+		E041C8592624254200ECBF76 /* MIBadgeButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E041C8582624254200ECBF76 /* MIBadgeButtonTests.swift */; };
+		E041C85B2624254200ECBF76 /* MIBadgeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E041C84D2624254200ECBF76 /* MIBadgeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E041C86F2624265F00ECBF76 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = E041C86E2624265F00ECBF76 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3DCA50AA19AE63610002F2E6 /* PBXContainerItemProxy */ = {
+		E041C8552624254200ECBF76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3DCA508F19AE63610002F2E6 /* Project object */;
+			containerPortal = E041C8412624254200ECBF76 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3DCA509619AE63610002F2E6;
+			remoteGlobalIDString = E041C8492624254200ECBF76;
 			remoteInfo = MIBadgeButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DCA509719AE63610002F2E6 /* MIBadgeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIBadgeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DCA509B19AE63610002F2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DCA509C19AE63610002F2E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DCA509E19AE63610002F2E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = MIBadgeButton/ViewController.swift; sourceTree = "<group>"; };
-		3DCA50A119AE63610002F2E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3DCA50A319AE63610002F2E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MIBadgeButton/Images.xcassets; sourceTree = "<group>"; };
-		3DCA50A919AE63610002F2E6 /* MIBadgeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIBadgeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DCA50AE19AE63610002F2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DCA50AF19AE63610002F2E6 /* MIBadgeButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIBadgeButtonTests.swift; sourceTree = "<group>"; };
-		3DCA50BB19AE66180002F2E6 /* MIBadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MIBadgeButton.swift; path = Classes/MIBadgeButton.swift; sourceTree = "<group>"; };
+		E041C84A2624254200ECBF76 /* MIBadgeButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MIBadgeButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E041C84D2624254200ECBF76 /* MIBadgeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIBadgeButton.h; sourceTree = "<group>"; };
+		E041C84E2624254200ECBF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E041C8532624254200ECBF76 /* MIBadgeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIBadgeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E041C8582624254200ECBF76 /* MIBadgeButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIBadgeButtonTests.swift; sourceTree = "<group>"; };
+		E041C85A2624254200ECBF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E041C86E2624265F00ECBF76 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3DCA509419AE63610002F2E6 /* Frameworks */ = {
+		E041C8472624254200ECBF76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DCA50A619AE63610002F2E6 /* Frameworks */ = {
+		E041C8502624254200ECBF76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E041C8542624254200ECBF76 /* MIBadgeButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DCA508E19AE63610002F2E6 = {
+		E041C8402624254200ECBF76 = {
 			isa = PBXGroup;
 			children = (
-				3DCA50A019AE63610002F2E6 /* Main.storyboard */,
-				3DCA50A319AE63610002F2E6 /* Images.xcassets */,
-				3DCA50BA19AE64370002F2E6 /* Controllers */,
-				3DCA50B919AE64230002F2E6 /* Classes */,
-				3DCA509919AE63610002F2E6 /* MIBadgeButton */,
-				3DCA50AC19AE63610002F2E6 /* MIBadgeButtonTests */,
-				3DCA509819AE63610002F2E6 /* Products */,
+				E041C86E2624265F00ECBF76 /* Classes */,
+				E041C84C2624254200ECBF76 /* MIBadgeButton */,
+				E041C8572624254200ECBF76 /* MIBadgeButtonTests */,
+				E041C84B2624254200ECBF76 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3DCA509819AE63610002F2E6 /* Products */ = {
+		E041C84B2624254200ECBF76 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DCA509719AE63610002F2E6 /* MIBadgeButton.app */,
-				3DCA50A919AE63610002F2E6 /* MIBadgeButtonTests.xctest */,
+				E041C84A2624254200ECBF76 /* MIBadgeButton.framework */,
+				E041C8532624254200ECBF76 /* MIBadgeButtonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DCA509919AE63610002F2E6 /* MIBadgeButton */ = {
+		E041C84C2624254200ECBF76 /* MIBadgeButton */ = {
 			isa = PBXGroup;
 			children = (
-				3DCA509C19AE63610002F2E6 /* AppDelegate.swift */,
-				3DCA509A19AE63610002F2E6 /* Supporting Files */,
+				E041C84D2624254200ECBF76 /* MIBadgeButton.h */,
+				E041C84E2624254200ECBF76 /* Info.plist */,
 			);
 			path = MIBadgeButton;
 			sourceTree = "<group>";
 		};
-		3DCA509A19AE63610002F2E6 /* Supporting Files */ = {
+		E041C8572624254200ECBF76 /* MIBadgeButtonTests */ = {
 			isa = PBXGroup;
 			children = (
-				3DCA509B19AE63610002F2E6 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3DCA50AC19AE63610002F2E6 /* MIBadgeButtonTests */ = {
-			isa = PBXGroup;
-			children = (
-				3DCA50AF19AE63610002F2E6 /* MIBadgeButtonTests.swift */,
-				3DCA50AD19AE63610002F2E6 /* Supporting Files */,
+				E041C8582624254200ECBF76 /* MIBadgeButtonTests.swift */,
+				E041C85A2624254200ECBF76 /* Info.plist */,
 			);
 			path = MIBadgeButtonTests;
 			sourceTree = "<group>";
 		};
-		3DCA50AD19AE63610002F2E6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3DCA50AE19AE63610002F2E6 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3DCA50B919AE64230002F2E6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3DCA50BB19AE66180002F2E6 /* MIBadgeButton.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		3DCA50BA19AE64370002F2E6 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				3DCA509E19AE63610002F2E6 /* ViewController.swift */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		E041C8452624254200ECBF76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E041C85B2624254200ECBF76 /* MIBadgeButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		3DCA509619AE63610002F2E6 /* MIBadgeButton */ = {
+		E041C8492624254200ECBF76 /* MIBadgeButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DCA50B319AE63610002F2E6 /* Build configuration list for PBXNativeTarget "MIBadgeButton" */;
+			buildConfigurationList = E041C85E2624254200ECBF76 /* Build configuration list for PBXNativeTarget "MIBadgeButton" */;
 			buildPhases = (
-				3DCA509319AE63610002F2E6 /* Sources */,
-				3DCA509419AE63610002F2E6 /* Frameworks */,
-				3DCA509519AE63610002F2E6 /* Resources */,
+				E041C8452624254200ECBF76 /* Headers */,
+				E041C8462624254200ECBF76 /* Sources */,
+				E041C8472624254200ECBF76 /* Frameworks */,
+				E041C8482624254200ECBF76 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,79 +118,73 @@
 			);
 			name = MIBadgeButton;
 			productName = MIBadgeButton;
-			productReference = 3DCA509719AE63610002F2E6 /* MIBadgeButton.app */;
-			productType = "com.apple.product-type.application";
+			productReference = E041C84A2624254200ECBF76 /* MIBadgeButton.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		3DCA50A819AE63610002F2E6 /* MIBadgeButtonTests */ = {
+		E041C8522624254200ECBF76 /* MIBadgeButtonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DCA50B619AE63610002F2E6 /* Build configuration list for PBXNativeTarget "MIBadgeButtonTests" */;
+			buildConfigurationList = E041C8612624254200ECBF76 /* Build configuration list for PBXNativeTarget "MIBadgeButtonTests" */;
 			buildPhases = (
-				3DCA50A519AE63610002F2E6 /* Sources */,
-				3DCA50A619AE63610002F2E6 /* Frameworks */,
-				3DCA50A719AE63610002F2E6 /* Resources */,
+				E041C84F2624254200ECBF76 /* Sources */,
+				E041C8502624254200ECBF76 /* Frameworks */,
+				E041C8512624254200ECBF76 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3DCA50AB19AE63610002F2E6 /* PBXTargetDependency */,
+				E041C8562624254200ECBF76 /* PBXTargetDependency */,
 			);
 			name = MIBadgeButtonTests;
 			productName = MIBadgeButtonTests;
-			productReference = 3DCA50A919AE63610002F2E6 /* MIBadgeButtonTests.xctest */;
+			productReference = E041C8532624254200ECBF76 /* MIBadgeButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3DCA508F19AE63610002F2E6 /* Project object */ = {
+		E041C8412624254200ECBF76 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Youxel Technology";
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					3DCA509619AE63610002F2E6 = {
-						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 0800;
+					E041C8492624254200ECBF76 = {
+						CreatedOnToolsVersion = 12.4;
 					};
-					3DCA50A819AE63610002F2E6 = {
-						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 0800;
-						TestTargetID = 3DCA509619AE63610002F2E6;
+					E041C8522624254200ECBF76 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 3DCA509219AE63610002F2E6 /* Build configuration list for PBXProject "MIBadgeButton" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = E041C8442624254200ECBF76 /* Build configuration list for PBXProject "MIBadgeButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3DCA508E19AE63610002F2E6;
-			productRefGroup = 3DCA509819AE63610002F2E6 /* Products */;
+			mainGroup = E041C8402624254200ECBF76;
+			productRefGroup = E041C84B2624254200ECBF76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DCA509619AE63610002F2E6 /* MIBadgeButton */,
-				3DCA50A819AE63610002F2E6 /* MIBadgeButtonTests */,
+				E041C8492624254200ECBF76 /* MIBadgeButton */,
+				E041C8522624254200ECBF76 /* MIBadgeButtonTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3DCA509519AE63610002F2E6 /* Resources */ = {
+		E041C8482624254200ECBF76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCA50A219AE63610002F2E6 /* Main.storyboard in Resources */,
-				3DCA50A419AE63610002F2E6 /* Images.xcassets in Resources */,
+				E041C86F2624265F00ECBF76 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DCA50A719AE63610002F2E6 /* Resources */ = {
+		E041C8512624254200ECBF76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -227,71 +194,71 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3DCA509319AE63610002F2E6 /* Sources */ = {
+		E041C8462624254200ECBF76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCA509F19AE63610002F2E6 /* ViewController.swift in Sources */,
-				3DCA50BC19AE66180002F2E6 /* MIBadgeButton.swift in Sources */,
-				3DCA509D19AE63610002F2E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DCA50A519AE63610002F2E6 /* Sources */ = {
+		E041C84F2624254200ECBF76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCA50B019AE63610002F2E6 /* MIBadgeButtonTests.swift in Sources */,
+				E041C8592624254200ECBF76 /* MIBadgeButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3DCA50AB19AE63610002F2E6 /* PBXTargetDependency */ = {
+		E041C8562624254200ECBF76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DCA509619AE63610002F2E6 /* MIBadgeButton */;
-			targetProxy = 3DCA50AA19AE63610002F2E6 /* PBXContainerItemProxy */;
+			target = E041C8492624254200ECBF76 /* MIBadgeButton */;
+			targetProxy = E041C8552624254200ECBF76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		3DCA50A019AE63610002F2E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DCA50A119AE63610002F2E6 /* Base */,
-			);
-			name = Main.storyboard;
-			path = MIBadgeButton;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		3DCA50B119AE63610002F2E6 /* Debug */ = {
+		E041C85C2624254200ECBF76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -299,46 +266,63 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				METAL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		3DCA50B219AE63610002F2E6 /* Release */ = {
+		E041C85D2624254200ECBF76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -346,116 +330,133 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				METAL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		3DCA50B419AE63610002F2E6 /* Debug */ = {
+		E041C85F2624254200ECBF76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ALK49AH4CV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MIBadgeButton/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youxel.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YingLei.MIBadgeButton;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3DCA50B519AE63610002F2E6 /* Release */ = {
+		E041C8602624254200ECBF76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ALK49AH4CV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MIBadgeButton/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youxel.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YingLei.MIBadgeButton;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		3DCA50B719AE63610002F2E6 /* Debug */ = {
+		E041C8622624254200ECBF76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MIBadgeButton.app/MIBadgeButton";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALK49AH4CV;
 				INFOPLIST_FILE = MIBadgeButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youxel.${PRODUCT_NAME:rfc1034identifier}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YingLei.MIBadgeButtonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3DCA50B819AE63610002F2E6 /* Release */ = {
+		E041C8632624254200ECBF76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MIBadgeButton.app/MIBadgeButton";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALK49AH4CV;
 				INFOPLIST_FILE = MIBadgeButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youxel.${PRODUCT_NAME:rfc1034identifier}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YingLei.MIBadgeButtonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DCA509219AE63610002F2E6 /* Build configuration list for PBXProject "MIBadgeButton" */ = {
+		E041C8442624254200ECBF76 /* Build configuration list for PBXProject "MIBadgeButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DCA50B119AE63610002F2E6 /* Debug */,
-				3DCA50B219AE63610002F2E6 /* Release */,
+				E041C85C2624254200ECBF76 /* Debug */,
+				E041C85D2624254200ECBF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DCA50B319AE63610002F2E6 /* Build configuration list for PBXNativeTarget "MIBadgeButton" */ = {
+		E041C85E2624254200ECBF76 /* Build configuration list for PBXNativeTarget "MIBadgeButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DCA50B419AE63610002F2E6 /* Debug */,
-				3DCA50B519AE63610002F2E6 /* Release */,
+				E041C85F2624254200ECBF76 /* Debug */,
+				E041C8602624254200ECBF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DCA50B619AE63610002F2E6 /* Build configuration list for PBXNativeTarget "MIBadgeButtonTests" */ = {
+		E041C8612624254200ECBF76 /* Build configuration list for PBXNativeTarget "MIBadgeButtonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DCA50B719AE63610002F2E6 /* Debug */,
-				3DCA50B819AE63610002F2E6 /* Release */,
+				E041C8622624254200ECBF76 /* Debug */,
+				E041C8632624254200ECBF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3DCA508F19AE63610002F2E6 /* Project object */;
+	rootObject = E041C8412624254200ECBF76 /* Project object */;
 }
